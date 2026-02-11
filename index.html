@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTC-Monitoreo - Versión 1.1.0</title>
+    <style>
+        body {
+            font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1b;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 40px;
+        }
+
+        .badge {
+            background-color: #3d5afe;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 25px 0;
+            letter-spacing: -1px;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        /* Separación de la versión */
+        h1 small {
+            color: #00e676;
+            margin-left: 20px; /* Espacio extra entre nombre y versión */
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .btn-download {
+            background-color: #00e676;
+            color: #1a1a1b;
+            padding: 18px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: transform 0.2s, background-color 0.2s;
+            display: inline-block;
+            box-shadow: 0 8px 20px rgba(0, 230, 118, 0.2);
+        }
+
+        .btn-download:hover {
+            background-color: #00c853;
+            transform: translateY(-3px);
+        }
+
+        .features {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-card {
+            background: #252526;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            text-align: left;
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: #00e676;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-card ul {
+            padding-left: 20px;
+            margin: 0;
+            color: #a0a0a0;
+        }
+
+        .feature-card li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #555;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="badge">Lanzamiento Oficial</span>
+        
+        <h1>GTC-Monitoreo <small>v1.1.0</small></h1>
+        
+        <p>
+            Hemos rediseñado por completo la experiencia. La versión 1.1.0 es más rápida, 
+            más estable y con una interfaz optimizada para tu flujo de trabajo diario.
+        </p>
+
+        <a href="tu-archivo-instalador.exe" class="btn-download" download>
+            Descargar para Windows (.exe)
+        </a>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>Gestión Core</h3>
+                <ul>
+                    <li>Optimización de rendimiento</li>
+                    <li>Manejo avanzado de tareas</li>
+                    <li>Manejo de cronómetro preciso</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card">
+                <h3>UI Moderna</h3>
+                <p>Nueva interfaz visual con soporte completo para temas oscuros y navegación fluida.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Seguridad</h3>
+                <p>Encriptación de datos de extremo a extremo y protocolos de sincronización segura.</p>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 Global Talent Connections - Todos los derechos reservados.
+        </footer>
+    </div>
+
+</body>
+</html>
